@@ -1,0 +1,296 @@
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #1ab394;
+    --bs-btn-border-color: #1ab394;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0c9b7e;
+    --bs-btn-hover-border-color: #0c9b7e;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0c9b7e;
+    --bs-btn-active-border-color: #0c9b7e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0a6351;
+    --bs-btn-disabled-border-color: #0a6351;
+}
+
+.bg-dark {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+    background-color: #2c2d30 !important;
+    --bs-navbar-active-color: #0c9b7e;
+}
+
+.colleauge-box {
+    background-color: rgba(52, 53, 57, 0.9) !important;
+    box-shadow: 3px 3px 8px 0px rgba(45, 45, 45, 0.1) !important;
+}
+
+.typed-cursor {
+}
+
+.typed-cursor.flash {
+    animation: flash-animation 1s infinite; /* Flash animation */
+}
+
+@keyframes flash-animation {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0; /* Invisible at midpoint */
+    }
+}
+
+/*-------------------------
+        GENERAL
+-------------------------*/
+body {
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+}
+
+.full-screen {
+    height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.618;
+}
+
+h2,
+h2 span {
+    font-weight: 700;
+}
+
+.pt-6 {
+    padding-top: 100px;
+}
+
+.max-width-450 {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a,
+button {
+    outline: none !important;
+}
+
+.box-border {
+    background-color: #f1f3f6;
+    border-radius: 1.25rem;
+    box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.1), -3px -3px 3px #3e3e3e !important;
+}
+
+.box-hover-border {
+    background-color: #f1f3f6;
+    border-radius: 1.25rem;
+    box-shadow: 3px 3px 3px #dadada, -3px -3px 3px #fafafa;
+}
+
+.box-hover-border:hover {
+    box-shadow: inset 3px 3px 3px #dadada, inset -3px -3px 3px #fafafa;
+}
+
+.image-border {
+    background-color: #f1f3f6;
+    border-radius: 1.25rem;
+    box-shadow: 3px 3px 8px rgba(55, 84, 170, 0.1), -3px -3px 8px white;
+    padding: 5px;
+}
+
+.image-border img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.title h2 {
+    font-size: 3rem;
+}
+
+.title p {
+    font-size: 18px;
+}
+
+.display-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.display-content {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 5rem 0;
+}
+
+.center-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-background {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+}
+
+
+/*-------------------------
+        SECTION
+-------------------------*/
+
+.section {
+    background-image: url('room.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.section h1,
+.section h2,
+.section h3 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.section p {
+    color: #f1f1f1;
+}
+
+
+/*-------------------------
+        HERO
+-------------------------*/
+.hero {
+    overflow-x: hidden !important;
+}
+
+.hero .personal-item h1 {
+    font-size: 2rem !important;
+}
+
+.hero .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 2;
+    right: 0;
+}
+
+.hero .hero-content p {
+    max-width: 450px;
+}
+
+/*-------------------------
+        About
+-------------------------*/
+.about .personal-info ul li {
+    margin-bottom: 1.25rem;
+}
+
+.about .personal-info ul li p {
+    font-weight: 500;
+}
+
+.about .personal-info span {
+    font-weight: 300;
+    color: #5f5f5f;
+}
+
+/*-------------------------
+        Testimonial
+-------------------------*/
+
+.hobby-image {
+    width: 70px;
+}
+
+/*-------------------------
+        Work SKILL
+-------------------------*/
+.skill-box {
+    margin-top: 30px;
+}
+
+.skill-box > *:not(:last-child) {
+    margin-bottom: 56px;
+}
+
+.progress {
+    --bs-progress-height: 10px;
+    --bs-progress-bg: #e1e1e1;
+}
+
+.progress .knowledgable {
+    background-color: rgb(11, 206, 175);
+}
+
+.progress .learning {
+    background-color: rgb(251, 221, 98);
+}
+
+.progress .unskilled {
+    background-color: rgb(255, 83, 128);
+}
+
+.skillbar-title {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.skill-bar-percent {
+    font-weight: 500;
+}
+
+/*-----------------------------
+Dark Media (IOS, MAC & ...)
+-----------------------------*/
+
+body {
+    background-color: #2c2d30 !important;
+    color: #fafafa;
+}
+
+.hero-images img {
+    box-shadow: 3px 3px 3px #202125, -3px -3px 3px #3e3e3e;
+}
+
+.hero-images .square img {
+    box-shadow: none;
+}
+
+.text-muted,
+.about .personal-info span,
+.language-skill h4 span {
+    color: #d2d2d2 !important;
+}
+
+.image-border {
+    background-color: #2c2d30;
+    box-shadow: 3px 3px 3px #202125, -3px -3px 3px #3e3e3e;
+}
+
+.blog-content h6 a:hover {
+    color: #d2d2d2 !important;
+}
+

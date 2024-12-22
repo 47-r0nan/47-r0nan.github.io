@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+            />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">RHarris</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#colleagues">Colleagues</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="hero" class="section hero full-screen p-0">
+            <div class="hero-content">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-6 order-2 order-lg-1">
+                            <div class="hero-item text-background">
+                                <h1 class="dark-color mb-3">
+                                    I'm <span class="base-color">Ronan Harris</span>
+                                </h1>
+                                <h4 class="text-darktext-capitalize mb-0">
+                                    <span class="base-color">A </span>
+                                    <span
+                                        class="element"
+                                        id="typewriter"
+                                        ></span
+                                        ><span class="typed-cursor" id="cursor">|</span>
+                                </h4>
+                                <p class="text-muted my-4">
+                                    Building innovative solutions, one brick at a time.
+                                </p>                                
+                                <div class="mt-2">
+                                    <a
+                                        href="javascript:void(0);"
+                                        class="btn btn-primary"
+                                        role="button"
+                                        >Download CV</a
+                                        >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-1 order-lg-2">
+                            <div class="hero-image">
+                                <div class="personal-image rounded-circle">
+                                    <img
+                                        src="/ronan.jpg"
+                                        alt="/"
+                                        class="rounded-circle img-fluid"
+                                        />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="section about pb-5 pt-6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mt-4 mt-lg-0">
+                        <div class="personal-item text-background">
+                            <h2 class="mb-0 base-color">About Me</h2>
+                            <h5 class="text-light my-3">
+                                Beginner <span class="base-color">UI/UX</span> Designer &amp; Back End
+                                Developer
+                            </h5>
+                            <div class="row">
+                                <div class="col-6 personal-info">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <p>Website: <span> https://github.com/47-r0nan</span></p>
+                                        </li>
+                                        <li>
+                                            <p>Phone: <span> +123 456 7890</span></p>
+                                        </li>
+                                        <li>
+                                            <p>Address: <span> Edenderry, Co Offaly</span></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6 personal-info">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <p>Age: <span> Late 20's</span></p>
+                                        </li>
+                                        <li>
+                                            <p>Degree: <span> 1st Class Hons Bachelor's (hopefully)</span></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="section py-5 pt-6">
+            <div class="container">
+                <div class="row  text-background">
+                    <div class="col-lg-12">
+                        <div class="title-content mb-4">
+                            <p class="mb-2">level of knowledge</p>
+                            <h2 class="base-color">My skills</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="skill-boxes">
+                            <div class="row">
+                                <!-- Skill -->
+                                <div class="col-lg-6">
+                                    <div class="skill-box">
+                                        <div class="d-flex flex-column" data-percent="95%">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="skillbar-title"><span>HTML/CSS/JS/Bootstrap</span></div>
+                                                <div class="skill-bar-percent">30%</div>
+                                            </div>
+                                            <div class="progress">
+                                                <div
+                                                    class="progress-bar knowledgable"
+                                                    role="progressbar"
+                                                    style="width: 25%"
+                                                    aria-valuenow="25"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                    ></div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column" data-percent="95%">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="skillbar-title"><span>Python</span></div>
+                                                <div class="skill-bar-percent">30%</div>
+                                            </div>
+                                            <div class="progress">
+                                                <div
+                                                    class="progress-bar unskilled"
+                                                    role="progressbar"
+                                                    style="width: 25%"
+                                                    aria-valuenow="25"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                    ></div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column" data-percent="95%">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="skillbar-title"><span>Java</span></div>
+                                                <div class="skill-bar-percent">30%</div>
+                                            </div>
+                                            <div class="progress">
+                                                <div
+                                                    class="progress-bar learning"
+                                                    role="progressbar"
+                                                    style="width: 25%"
+                                                    aria-valuenow="25"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                    ></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="skill-box">
+                                        <div class="d-flex flex-column" data-percent="95%">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="skillbar-title"><span>Docker</span></div>
+                                                <div class="skill-bar-percent">30%</div>
+                                            </div>
+                                            <div class="progress">
+                                                <div
+                                                    class="progress-bar knowledgable"
+                                                    role="progressbar"
+                                                    style="width: 25%"
+                                                    aria-valuenow="25"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                    ></div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column" data-percent="95%">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="skillbar-title"><span>Git</span></div>
+                                                <div class="skill-bar-percent">30%</div>
+                                            </div>
+                                            <div class="progress">
+                                                <div
+                                                    class="progress-bar knowledgable"
+                                                    role="progressbar"
+                                                    style="width: 25%"
+                                                    aria-valuenow="25"
+                                                    aria-valuemin="0"
+                                                    aria-valuemax="100"
+                                                    ></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="colleagues" class="section py-5 pt-6">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-content mb-4 text-background">
+                        <p class="mb-0">What colleagues think about me</p>
+                        <h2 class="base-color">Colleagues say</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="mixedContentCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mixedContentCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#mixedContentCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#mixedContentCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <!-- Slides -->
+                <div class="carousel-inner">
+                    <!-- Carousel Item 1 -->
+                    <div class="carousel-item active">
+                        <div class="row my-4 mx-auto" style="width: 535px; height: 242px;">
+                            <div class="p-4 box-border colleauge-box">
+                                <div class="d-flex">
+                                    <div
+                                        class="image-border hobby-image d-inline-block me-3 rounded-circle"
+                                        >
+                                        <img
+                                            class="d-inline-block rounded-circle"
+                                            src="bm.jpg"
+                                            alt="/"
+                                            />
+                                    </div>
+                                    <div
+                                        class="d-flex flex-column justify-content-center align-items-start"
+                                        >
+                                        <span class="d-block font-weight-bold">Batman</span>
+                                        <small class="text-muted">Vigilante</small>
+                                    </div>
+                                </div>
+                                <p class="mb-0 mt-4 text-muted">
+                                    Lovely to see him in Gotham!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel Item 2 -->
+                    <div class="carousel-item">
+                        <div class="row my-4 mx-auto" style="width: 535px; height: 242px;">
+                            <div class="p-4 box-border colleauge-box">
+                                <div class="d-flex">
+                                    <div
+                                        class="image-border hobby-image d-inline-block me-3 rounded-circle"
+                                        >
+                                        <img
+                                            class="d-inline-block rounded-circle"
+                                            src="dv.jpg"
+                                            alt="/"
+                                            />
+                                    </div>
+                                    <div
+                                        class="d-flex flex-column justify-content-center align-items-start"
+                                        >
+                                        <span class="d-block font-weight-bold">Anakin Skywalker</span>
+                                        <small class="text-muted">Evil Death Lord</small>
+                                    </div>
+                                </div>
+                                <p class="mb-0 mt-4 text-muted">
+                                    Never liked him...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row my-4 mx-auto" style="width: 535px; height: 242px;">
+                            <div class="p-4 box-border colleauge-box">
+                                <div class="d-flex">
+                                    <div
+                                        class="image-border hobby-image d-inline-block me-3 rounded-circle"
+                                        >
+                                        <img
+                                            class="d-inline-block rounded-circle"
+                                            src="venom.jpg"
+                                            alt="/"
+                                            />
+                                    </div>
+                                    <div
+                                        class="d-flex flex-column justify-content-center align-items-start"
+                                        >
+                                        <span class="d-block font-weight-bold">Venom</span>
+                                        <small class="text-muted">Alien</small>
+                                    </div>
+                                </div>
+                                <p class="mb-0 mt-4 text-muted">
+                                    Reliable and always able to help talk out a problem
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"
+            ></script>
+            <script
+            src="main.js"
+            ></script>
+    </body>
+</html>
