@@ -2,7 +2,7 @@
 # Ronan Harris - Portfolio Website
 
 ## Description
-This is my interactive portfolio website showcasing my skills, projects, and interests.
+This is my interactive portfolio website showcasing my skills and interests.
 
 ## Live Website
 [Click here to view the live website](https://47-r0nan.github.io/)
