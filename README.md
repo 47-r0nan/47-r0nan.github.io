@@ -3,6 +3,7 @@
 
 ## Description
 This is my interactive portfolio website showcasing my skills and interests.
+I have had some Bootstrap experience but have experience in HTML/CSS/JavaScript from previous college courses and free online courses.
 
 ## Live Website
 [Click here to view the live website](https://47-r0nan.github.io/)
